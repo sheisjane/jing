@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Auckland Table Tennis Registration Form </h1>
+</head>
+<body>
+    <div>
+        <p>Fill out this form to register with TTNZ.  You will be granted a unique IMR number (Individual Member Registration). This number will be required on your tournament entry forms to enable your results to be recorded and reported in TTNZ systems.</p>
+        <p>Fields marked with * are required. </p>   
+     </div>
+    <from action="" method="get" >
+
+    <span><p>
+        <label for="First Name" id=First Name>First Name*:</label>
+        <input type="text" placeholder="First Name" required>
+        <label for="Last Name" id=Last Name>Last Name*:</label>
+        <input type="text"placeholder="Last Name" required>
+        </p>
+
+        <p>
+        <label for="gender" id= gender> Gender:</label>
+        <select name="gender" id=gender>Gender
+            <option value="select">Select</option>      
+            <option value="Male">Male</option>
+            <option value="Famale">Famale</option></select>
+        </p>
+    </span>
+
+    <div><p>
+        <label for="Data Of Brith">Data Of Brith:</label>
+        <input type="date" id="Data Of Brith" name="Data Of Brith"
+        value="2001-01-01"
+        min="1950-01-01" max="2016-12-31">
+        </p>
+    
+        <br><label for="password">Password (6characters minimum)*:</label>
+        <input type="text" id="password" name="password" minlength="6" required>
+        
+    </div>
+
+    <div>
+        <p>
+        <br><label for="Email" id="Email">Email:</label>
+        <input type="Email">
+        </p>
+        <P></P><br><label for="Address" id="Address">Address:</label>
+        <input type="text" id="Address" name="Address" >
+        </P>
+        
+    </div>
+    
+    
+<div>
+    <p>Select match to plays:</p>
+
+    <input type="radio" id="Single" name="Single">
+    <label for="Single">Single</label>
+
+    <input type="radio" id="Double" name="Double">
+    <label for="Double">Double</label>
+
+    <input type="radio" id="Mix" name="Mix">
+    <label for="Mix">Mix</label>
+</div>
+    
+    <div><p>
+        <label for="Select age geoup" id="">Select age geoup:</label>
+        <select name="Select age geoup" id="Select age geoup">
+            <option value="select">select</option>      
+            <option value="5U">5U</option>
+            <option value="6U">6U</option>
+            <option value="7U">7U</option>
+            <option value="8U">8U</option>
+            <option value="9U">9U</option>   </select>
+
+          </p>
+    </div> 
+
+    
+    
+    <div><p>How did you know our advertise:
+
+      <input type="checkbox" id="how" name="how" value="Facebook">
+      <label for="how">Facebook</label>
+
+      <input type="checkbox" id="how" name="how" value="Newspaper">
+      <label for="how">Newspaper</label>
+
+      <input type="checkbox" id="how" name="how" value="Wechat">
+      <label for="how">Wechat</label>
+     </p>
+    </div>
+
+
+    <label for="recommend" id= "recommend"> Would you recommend our web to others:</label>
+    <input type="range" id="recommend" name="feel" min="0" max="100"value="80" step="10">
+    
+    
+    <p>
+    <input type="submit" value="submit">
+
+
+
+    </from>
+
+   
+
+</body>
+</html>
