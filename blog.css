@@ -1,0 +1,23 @@
+
+
+h1{
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+span{
+    color: beige;
+    text-align:right;
+    font-size: 18px;
+}
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+    
