@@ -1,58 +1,30 @@
+div{
+    display: block;
+    width: 10vh;
+    height: 15vh;
+    border-radius: 10%;
+    margin:2% 0
+}
+
+div:hover{
+    transition-property: all;
+    transform: scale(4,1);
+}
+
 .block1{
     background-color: #2A9D8F;
-    display: block;
-    width: 10vh;
-    height: 15vh;
-    border-radius: 10%;
-    margin:2% 0
-    
 }
-.block1:hover{
-    transition-property: all;
-    transform: scale(4,1);
-    
 
-}
 .block2{
     background-color:#e9c46a;
-    display: block;
-    width: 10vh;
-    height: 15vh;
-    border-radius: 10%;
-    margin:2% 0
-
-    
 }
-.block2:hover{
-    transition-property: all;
-    transform: scale(4,1);
 
-}
 .block3{
-    background-color: #f4a261;
-    display: block;
-    width: 10vh;
-    height: 15vh;
-    border-radius: 10%;
-    margin:2% 0
-    
+    background-color: #f4a261;  
 }
-.block3:hover{
-    transition-property: all;
-    transform: scale(4,1);
-}
+
 .block4{
     background-color: #e76f51;
-    display: block;
-    width: 10vh;
-    height: 15vh;
-    border-radius: 10%;
-    
-    margin:2% 0
+  
 }
-.block4:hover{
-    transition-property: all;
-    transform: scale(4,1);
 
-
-}
