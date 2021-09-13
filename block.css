@@ -1,0 +1,30 @@
+div{
+    display: block;
+    width: 10vh;
+    height: 15vh;
+    border-radius: 10%;
+    margin:2% 0
+}
+
+div:hover{
+    transition-property: all;
+    transform: scale(4,1);
+}
+
+.block1{
+    background-color: #2A9D8F;
+}
+
+.block2{
+    background-color:#e9c46a;
+}
+
+.block3{
+    background-color: #f4a261;  
+}
+
+.block4{
+    background-color: #e76f51;
+  
+}
+
